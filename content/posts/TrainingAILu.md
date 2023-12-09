@@ -36,9 +36,9 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-训练使用[so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork)
-训练集来自卢直播428：被封锁的涩谷
-人声分离（去除BGM）使用[vocal remover](https://github.com/tsurumeso/vocal-remover)
+- 训练使用[so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork)
+- 训练集来自卢直播428：被封锁的涩谷
+- 人声分离（去除BGM）使用[vocal remover](https://github.com/tsurumeso/vocal-remover)
 
 克隆仓库到本地
 
@@ -96,4 +96,3 @@ svc pre-config
 svc pre-hubert
 svc train -t
 ```
-
