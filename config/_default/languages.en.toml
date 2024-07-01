@@ -1,13 +1,15 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "blogger"
+title = "0x6c79的博客"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
+logo = ""
+description = "to record my path."
 
 [author]
 name = "0x6c79"

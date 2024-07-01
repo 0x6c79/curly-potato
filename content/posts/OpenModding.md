@@ -38,33 +38,88 @@ editPost:
 
 ## Wrye Notes: Open Modding
 
+## 注：本文中的我指的是原文作者Wrye
+
 **_In this paper, I discuss the idea of open modding – what it is and how best it can be achieved for the Morrowind community. Unfortunately, I'm being pulled back into real life, and so am unable to complete this document or have much time to discuss it. However, I hope that it will serve as a starting point for others with similar desires._**
 
-**_在这篇文章中，我（作者）讨论了开放模组制作的想法 - 它是什么以及它能使晨风社区达到多好的结果。很不幸，我正在被拉回到现实生活，因此我不能完成这个文档或者有很多讨论它的时间。然而，我希望它能作为一个为其他有类似愿望的人的起点_**
+***在这篇文章中，我讨论了开放模组制作的想法 - 它是什么以及它能使晨风社区达到多好的结果。很不幸，我正在被拉回现实生活，因此我不能完成这个文档或者有很多时间讨论它。然而，我希望它能作为一个为其他有类似愿望的人的起点***
 
-## Cathedral vs. Parlor 大教堂 vs 客厅
+## Contents
+
+•  [Cathedral vs. Parlor](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#CathedralvsParlor)
+
+•  [LGNPC Seyda Neen Redraft and Amulet of Scrye](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#LGNPCSeydaNeenRedraftandAmuletofScrye)
+
+•  [Contrasts and Consequences](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#ContrastsandConsequences)
+
+•  [Open Distribution](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#OpenDistribution)
+
+•  [No Takebacks](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#NoTakebacks)
+
+•  [Open and Openable Distribution](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#OpenandOpenableDistribution)
+
+•  [Open Modification](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#OpenModification)
+
+•  [Levels of Modification](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#LevelsofModification)
+
+•  [Modification Examples](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#ModificationExamples)
+
+•  [Modification by Patch](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#ModificationbyPatch)
+
+•  [Pervasive vs. Focussed Mods](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#PervasivevsFocussedMods)
+
+•  [Open Modding License](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#OpenModdingLicense)
+
+•  [Basic Deal](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#BasicDeal)
+
+•  [Details](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Details)
+
+•  [Open Modification vs. Open Distribution](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#OpenModificationvsOpenDistribution)
+
+•  [Other Mechanisms](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#OtherMechanisms)
+
+•  [General Behavior](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#GeneralBehavior)
+
+•  [Users](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Users)
+
+•  [Modders](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Modders)
+
+•  [Distributors](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Distributors)
+
+•  [Postscript](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Postscript)
+
+•  [Reuse and Credits](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#ReuseandCredits)
+
+•  [Credits](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Credits)
+
+•  [License](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#License)
+
+•  [Contact](https://wryemusings.com/Cathedral%20vs.%20Parlor.html#Contact)
+
+## Cathedral vs. Parlor
+## 大教堂 vs 客厅
 
 There are essentially two ways that modders view the place of their creations in the modding community: The **_Cathedral_** view, and the **_Parlor_** view.
 
-模组制作者看他们的创作在模组社区中的位置基本上有两种方式：**大教堂**观点和**客厅**观点
+模组制作者看待他们的创作在模组社区中的位置基本上有两种方式：**大教堂**观点和**客厅**观点
 
 In the **_Cathedral_** view, modding is viewed as being like a **_joint effort to build a cathedral._** Individually, our contributions may be small – and may not be worth doing for themselves. But by each person contributing something, we construct something larger and more worthwhile than any of us could do on our own. Under this view, creations are contributions – and may not be taken back. (Just as in building a Cathedral, it would not be allowed for a person to contribute a stained glass window and then later take it back.)
 
-在**大教堂**观点中，模组制作被看作**_一个共同努力建造一座大教堂_**的过程。个人来说，我们的贡献可能很小 - 并且也许不值得为他们自己做。但通过每一个人贡献的一点，我们建造了比我们任何一个人能做到的更有价值、更大的东西。在这种观点之下，创造就是贡献 - 并且可能不会被收回。（就像正在建立一座大教堂，它不允许一个人贡献一个染色的玻璃窗之后再把它拿回去。
+在**大教堂**观点中，模组制作被看作***一个共同努力建造一座大教堂***的过程。个体来说，我们的贡献可能很小 - 并且也许不值得为他们自己做。但通过每一个人贡献的一点，我们建造了比我们任何一个人能做到的更有价值、更大的东西。在这种观点之下，创作就是贡献 - 并且可能不会被收回。（就像正在建立一座大教堂，它不允许一个人贡献一个染色的玻璃窗之后再把它拿回去。
 
 The **_Parlor_** view in contrast, is the view that mods are more like **_privately owned works of art displayed in the modder's parlor._** The modder invites others into the parlor to appreciate and enjoy the work of art – but may at any time close the parlor door and ask their guests to leave. And of course, the modder may be very selective about who they invite into their parlor. Under this view, our creations are never contributions; rather we continue to own and control them – takebacks are normal and accepted.
 
-相比之下，在**_客厅_**观点中模组更像**_模组制作者客厅中的私有艺术品_**。模组制作者邀请其他人进入客厅来欣赏和享受这些艺术品 - 但可能随时关闭客厅的门并要求客人离开。当然，模组制作者也可能对邀请谁进入他们的客厅非常挑剔。在这种观点下，我们的创造从来都不是贡献；相比我们继续拥有和控制它们 - 收回是正常和可接受的。
+相比之下，在***客厅***观点中模组更像***模组制作者客厅中的私有艺术品***。模组制作者邀请其他人进入客厅来欣赏和享受这些艺术品 - 但可能随时关闭客厅的门并要求客人离开。当然，模组制作者也可能对邀请谁进入他们的客厅非常挑剔。在这种观点下，我们的创作从来都不是贡献；相比我们继续拥有和控制它们 - 收回是正常和可接受的。
 
 The Parlor view allows the creator to retain complete control of their work. But the Cathedral view creates a much larger, more enduring and more perfected body of work – and for that reason, I prefer it.
 
-客厅观点允许创作者保有对他们作品的完整控制权。但大教堂观点创造一个更大、更持久和更完美的作品体系 - 因此，我（作者）更倾向它。
+客厅观点允许创作者保有对他们作品的完整控制权。但大教堂观点创造一个更大、更持久和更完美的作品体系 - 因此，我更倾向它。
 
 ### LGNPC Seyda Neen Redraft and Amulet of Scrye
 
 To give an example... A year or two ago, Joe Stevens wrote a mod called "Less Generic NPC Seyda Neen", which fleshed out many of the characters in Seyda Neen by giving them non-generic responses to standard dialog topics. Joe eventually left the community, but another team took up the idea after him – creating LGNPC mods for a number of towns. But, after doing several towns, the LGNPC team had raised the bar considerably, and Joe's original work was looking pretty first draftish. At that point, I volunteered to redraft LGNPC Seyda Neen – fixing grammar, paragraph structure, logical inconsistencies and generally bringing it up to the current LGNPC bar.
 
-给一个例子...一年或者两年以前，Joe Stevens写了一个叫做“Less Generic NPC Seyda Neen"的模组，此模组通过给他们对于标准对话主题的非通用响应充实了许多Seyda Neen中的角色。Joe最终离开了社区，但其他团队在他之后继承了这个想法 - 为一些城镇创造LGNPC模组。但是，做了几个城镇之后，LGNPC 团队大大提高了标准，Joe的原始作品看起来就相当初稿。在那时，我自愿的翻新了LGNPC Seyda Neen - 修复语法、段落结构、逻辑不一致等问题，并总体上让它达到当前的LGNPC标准。
+举一个例子...一年或者两年以前，Joe Stevens写了一个叫做“Less Generic NPC Seyda Neen"的模组，此模组通过给他们（NPC）对标准对话主题的非通用响应从而充实了许多Seyda Neen中的角色。Joe最终离开了社区，但其他团队在他之后继承了这个想法 - 为一些城镇创造LGNPC模组。但是，做了几个城镇之后，LGNPC 团队大大提高了标准，Joe的原始作品看起来就相当像初稿。在那时，我自愿的翻新了LGNPC Seyda Neen - 修复语法、段落结构、逻辑不一致等问题，并总体上让它达到当前的LGNPC标准。
 
 By the Cathedral view, my redraft was a good thing – I took something that was good and made it even better. And as a result, Joe's original work is seen and appreciated more then before.
 
@@ -85,10 +140,11 @@ However, not everything turned out perfectly. In my revision of Seyda Neen, I ha
 It was this, combined with very vocal support for the parlor view on the forum, that led me to retire. I had several ongoing projects and there were several items that I would have liked to continue working on, but it seems like the Parlor view is predominant – and personally I don't find it that inspiring.
 
 就是这样，结合着在论坛上非常强烈的支持客厅观点的声音，使得我退出。我有几个正在进行的项目并且有几个我想要继续做的东西，但看起来客厅观点占了主导地位 - 就我个人而言我不认为它有那么鼓舞人心。
+### Contrasts and Consequences
+### 对比和结果
 
-### Contrasts and Consequences 对比和结果
-
-#### Modding is a Joint Effort 模组制作是共同努力
+#### Modding is a Joint Effort
+#### 模组制作是共同努力
 
 Almost all of Morrowind modding is a group effort to one degree or another. There are very few mods that do not owe huge debts to earlier produced mods and/or to the expertise and tools provided by earlier modders.
 
@@ -98,27 +154,30 @@ Almost all of Morrowind modding is a group effort to one degree or another. Ther
 
 The Cathedral view vastly reduces duplication of effort – instead promoting either improvements in, or extensions of the original, or the creation of entirely new, complementary works. One doesn't have go far in reviewing one's mod library to see quite a few of these examples of mods that extend or fix earlier mods. E.g.: LGNPC, Adventure, Join All Houses, CharGen, Inferno's Island, Kivan's patches, alchemy sorters, etc.
 
-大教堂观点极大地减少了重复用功 - 取而代之促进对原作品的改进或扩展，或创造一个全新的、互补的作品。人们无需深入审查自己的模组库，就能看到相当多的扩展或修复之前模组的例子。例如：LGNPC, Adventure, Join All Houses, CharGen, Inferno's Island, Kivan's patches, alchemy sorters, 等。
+大教堂观点极大地减少了重复用功 - 取而代之促进对原作品的改进或扩展，或创造一个全新的、互补的作品。人们无需深入审查自己的模组库，就能看到相当多的扩展或修复之前模组的例子。例如：LGNPC, Adventure, Join All Houses, CharGen, Inferno's Island, Kivan's patches, alchemy sorters等。
 
-#### Perfection vs. Stagnation 完美 vs 停滞
+#### Perfection vs. Stagnation
+#### 完美 vs 停滞
 
 The Cathedral view tends towards perfection, while the Parlor view tends towards repetition and stagnation. **_Repetition,_** because earlier useful works that have been closed off have to be recreated. **_Stagnation,_** because this fails to lead to improvements, and more importantly because few modders are interested in replicating something that has already been done before. (Especially since, if they knew of the original, they probably have a copy of the original mod, and hence have no personal need to recreate it.
 
-大教堂观点趋向完美，然而客厅观点趋向重复和停滞。重复，因为之前被关闭的有用作品必须重新创造。停滞，因为这无法带来改进，并且更重要的是因为很少有模组制作者有兴趣复制之前已经有的东西。（特别是因为，如果他们知道原模组，他们可能已经有了原模组的拷贝，因此没人需要重新创造它）。
-
-#### Integration vs. Isolation 集成 vs 隔离
+大教堂观点趋向完美，然而客厅观点趋向重复和停滞。**重复**，因为之前被关闭的有用作品必须重新创作。**停滞**，因为这无法带来改进，并且更重要的是因为很少有模组制作者有兴趣复制之前已经有的东西。（特别是因为，如果他们知道原模组，他们可能已经有了原模组的拷贝，因此没人需要重新创造它）。
+#### Integration vs. Isolation
+#### 集成 vs 隔离
 
 The Cathedral view tends towards rich integration between mods. But under the Parlor view, there's not much point of integrating with another mod – since that mod can be removed at any time. Certainly, I would not have added the Amulet of Scrye references to LGNPC Seyda Neen, if I had thought Ivza might remove it.
 
 大教堂观点趋向在模组之间丰富的集成。但在客厅观点下，与其他模组的集成没有意义 - 因为模组可以随时移除。当然，如果我认为Ivza可能会删除它，我就不会添加对Amulet of Scrye的引用。
 
-#### Authorial Longetivity 作者寿命
+#### Authorial Longetivity
+#### 作者寿命
 
 Improved works are much more likely to give everyone credit. OTOH, if two works are independently created to do the same job, then it's likely that only one of them will "win" (i.e. be widely known/used) – and thus the effort and name of the loser will be lost. In competitions, there's little desire to mention your competitor in your readme; but in extensions and improvements, the norm is for the original author to get top billing.
 
-改进的作品更有可能给每个人带来荣誉。反过来说，如果两个作品是独立创造的并且做的是相同的事，那么很可能只有一个会“赢”（比如被广泛认识的/使用的） - 并且因此失败者的努力和名誉都会消失。竞争中，几乎没有人会在自己的自述文件中提及对手；但扩展和改进，原作者得到了最高的评价却是常态。
+改进的作品更有可能给每个人带来荣誉。反过来说，如果两个作品是独立创造的并且做的是相同的事，那么很可能只有一个会“赢”（比如被广泛认识的/使用的）- 并且因此失败者的努力和名誉都会消失。竞争中，几乎没有人会在自己的自述文件中提及对手；但扩展和改进，原作者得到了最高的评价却是常态。
 
-#### Cathedral Effect 大教堂效应
+#### Cathedral Effect
+#### 大教堂效应
 
 Many modders (such as myself) aren't interested in working in a non-Cathedral community. It's belonging to a community, creating something that outlasts our own efforts, that integrates and grows even when we're away that makes the community so interesting. But under the Parlor view, much of what has been built in the past just disappears.
 
@@ -126,27 +185,40 @@ Many modders (such as myself) aren't interested in working in a non-Cathedral co
 
 Morrowind players and modders are already paying the price for the lack of prior action to support the Cathedral view. The loss of previous modding sites (Morrowind Files, Euro-Morrowind, Gamer's Roam, etc.) has meant the loss of many of the mods originally on those sites. Many of these mods are still available on people's hard disks, but without a clear re-uploading agreement, these have not been added onto new download sites. (Much of the recent dispute on the forum was on the topic of when and if these could ever be re-uploaded to new sites.)
 
-晨风玩家和模组制作者已经为缺少先前的行动支持大教堂观点而付出了代价。以前的模组网站丢失（Morrowind Files, Euro-Morrowind, Gamer's Roam, 等）意味着失去了原来在这些网站上的许多模组。许多这些模组中仍然在人们的硬盘里，但没有一个清晰的重新上传的许可，这些模组就不能添加到新的下载网站中。（最近许多在论坛上的争论都是关于什么时候和如果他们能重新上传到新的网站上的话题。）
+晨风玩家和模组制作者已经为缺少先前的行动支持大教堂观点而付出了代价。以前的模组网站丢失（Morrowind Files, Euro-Morrowind, Gamer's Roam等）意味着失去了原来在这些网站上的许多模组。许多这样的模组仍然在人们的硬盘里，但没有一个清晰的重新上传的许可，这些模组就不能添加到新的下载网站中。（最近许多在论坛上的争论都是关于什么时候和如果他们能重新上传到新的网站上的话题。）
 
 Aside from just these lost files, other creations would likely have not been withdrawn if there were clear community standards and processes in support of the Cathedral view. I.e., if all upload and link sites had "no takebacks" policies, more of the old mods would be under no takeback licenses, and so could not have been removed.
 
 除了这些失去的文件外，如果有清晰的社区标准和流程来支持大教堂观点，其他的创造可能不会被撤回。例如，如果网站对所有的上传和链接没有收回政策，更多的旧模组将处于不收回许可证下，因此也就不会被移除。
 
 ## Open Distribution
+## 开放分发
 
 Okay, enough about the problem. Now, what can/should be done about it? I see two main questions: 1) What does the Cathedral view mean in practice? and 2) How can/should the Cathedral view be promoted?
 
+好吧，关于问题说的够多了。现在，有什么能/应该做的呢？我看见了两个主要问题：1) 大教堂观点在实践中意味着什么？2) 怎么能推广大教堂观点呢？
+
 ### No Takebacks
+### 不取回
 
 At it's minimum, the Cathedral view means, "No takebacks!" Once a mod has been released to the public, then it can't be taken back. Okay, sounds good, but... 1) What about group mods? 2) What does "released to the public" mean? Does email count? How about a sharing through a Yahoo briefcase? 3) Can the modder still restrict distribution to their own personal site? Can they require registration? These questions be discussed in the next section.
 
+至少来说，大教堂观点意味着“不取回！” 一旦一个模组向公共发行，他就不能被取回。好吧，听起来不错，但是... 1) 那么一组模组呢？ 2) “向公共发布“是什么意思呢？电子邮件算吗？通过雅虎公文包分享的怎么样呢？ 3) 模组作者还能限制分发在他们自己的网站上吗？他们需要注册吗？ 这些问题将在下个区域讨论。
+
 At a more advanced level, the Cathedral view often means that others can modify the original mod. There are clearly arguments for this (the perfection and integration described above), but there is also a strong argument against it (artistic vision of the original modder). These issues will be discussed later.
 
+更深层的来说，大教堂观点通常意味着其他人能修改原模组。对此有明确的论据（上文的[[#Perfection vs. Stagnation]]和[[#Integration vs. Isolation]]中进行了描述），但也有一个强烈的论据反对它（原模组作者的艺术视野）。这些问题将在后面讨论。
+
 ### Open and Openable Distribution
+### 开放和可开放分发
 
 The most basic level (the "foundation" you might say) of the Cathedral view is: "No takebacks!" One way of achieving this is to simply say that once a mod has been released, that it is **_Open Distribution_** – i.e., **_anyone else can distribute it with no additional permission required from the author._**
 
+大教堂观点的最基本的层次（你也许会说“基石”）是：“不取回！” 达成此的一个方法是简单地说模组一旦发布，它就是**开放分发** - 例如，**任何人都能分发它而不要原作者的附加许可**。
+
 However, there are a lot of modders who are willing to keep their mods available, but prefer to have them served by a single website. For these modders, and **_Openable Distribution_** might be solution. Openable Distribution allows the modder to limit distribution to preferred web sites – so long as at least one such website is available. As soon as that website goes down for an appreciable period of time (a week), then the mod becomes Open Distribution.
+
+然而，有很多模组作者愿意保持他们的模组可用，但倾向于在单一网站上保有他们。对这些模组作者来说，**可开放分发**可能是解决方案。可开放分发允许模组作者限制分发到倾向的网站 -
 
 There are several benefits to Openable Distribution:
 
@@ -158,7 +230,7 @@ The only care that needs to be exercised with Openable Distribution, is that it 
 
 #### Public Release
 
-I would take *public release* to mean release to anyone other than the mod creators/beta testers – by any mechanism (even email). Obviously, neither "creators" nor "beta testers" definitions should be bent in an effort to limit distribution. Basically, as soon as anyone whose major intent is just to enjoy the mod is given a copy of the mod, then the mod has been released.
+I would take _public release_ to mean release to anyone other than the mod creators/beta testers – by any mechanism (even email). Obviously, neither "creators" nor "beta testers" definitions should be bent in an effort to limit distribution. Basically, as soon as anyone whose major intent is just to enjoy the mod is given a copy of the mod, then the mod has been released.
 
 #### Access Registration
 
@@ -312,7 +384,7 @@ While focussed mods can benefit from Open Modification, Open Modification seems 
 
 As discussed above, the foundation of the Cathedral view is "no takebacks" – i.e., either Open Distribution or Openable Distribution licenses for mods. At a more advanced level, the Cathedral view means a license that allows at least some degree of Open Modification. Several such licenses have been proposed.
 
-However, the problem with these licenses is that they do nothing to *encourage,* a modder to use one of their licenses. I.e. the modder gains no benefit for adding one and suffers no penalty for not adding one. True, at least some modders will add one anyway – but I strongly suspect that most will not.
+However, the problem with these licenses is that they do nothing to _encourage,_ a modder to use one of their licenses. I.e. the modder gains no benefit for adding one and suffers no penalty for not adding one. True, at least some modders will add one anyway – but I strongly suspect that most will not.
 
 What is needed is a license that does a little arm twisting. If this seems a little negative to you, consider that open source licenses do exactly the same thing – and doing so has been crucial to the success of open source software.
 
@@ -346,7 +418,7 @@ In distributing your mod, then the main readme must include an explicit Openable
 
 #### Notes
 
-1. OML is Open Distribution, of course. 2) Though OML requires that the users distributed mods be Openable Distribution licensed, it does not require that they be OML licensed. 3) The license would cover mods and utilities for the Morrowind platform only. (I.e., not Oblivion or anything else.) 4) If the license is in conflict with the Bethesda EULA, then the Bethesda EULA take precedence of course in the areas of conflict. 5) Standard legal boilerplate regarding liability, etc.
+1) OML is Open Distribution, of course. 2) Though OML requires that the users distributed mods be Openable Distribution licensed, it does not require that they be OML licensed. 3) The license would cover mods and utilities for the Morrowind platform only. (I.e., not Oblivion or anything else.) 4) If the license is in conflict with the Bethesda EULA, then the Bethesda EULA take precedence of course in the areas of conflict. 5) Standard legal boilerplate regarding liability, etc.
 
 ### Open Modification vs. Open Distribution
 
@@ -453,6 +525,8 @@ While many people have been supportive of the Cathedral ideal, very few people h
 •  Home page: [Wrye Morrowind](http://wrye.ufrealms.net/)
 
 •  Best way to contact me is by PM to "Wrye" at the Elder Scrolls forum.
+
+
 
 ## 原链接
 
