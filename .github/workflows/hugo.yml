@@ -7,7 +7,7 @@ on:
     branches:
       - main
 
-permission:
+permissions:
     contents:read
     pages:write
     id-token:write
