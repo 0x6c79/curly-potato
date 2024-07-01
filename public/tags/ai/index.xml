@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on blogger</title>
+    <link>//localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 0x6c79</copyright>
+    <lastBuildDate>Sat, 09 Dec 2023 22:35:05 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>训练AI卢</title>
+      <link>//localhost:1313/posts/trainingailu/</link>
+      <pubDate>Sat, 09 Dec 2023 22:35:05 +0800</pubDate>
+      
+      <guid>//localhost:1313/posts/trainingailu/</guid>
+      <description>训练使用so-vits-svc-fork 训练集来自卢直播428：被封锁的涩谷 人声分离（去除BGM）使用vocal remover 克隆仓库到本地</description>
+      
+    </item>
+    
+    <item>
+      <title>Deploy kohya_ss on Fedora Silverblue 38 with AMD GPU</title>
+      <link>//localhost:1313/posts/2023-06-08/</link>
+      <pubDate>Thu, 08 Jun 2023 19:02:11 +0800</pubDate>
+      
+      <guid>//localhost:1313/posts/2023-06-08/</guid>
+      <description>Overview # If you want to train your own Stable Diffusion model, you can use kohya or sd webui dreambooth extension to train models.</description>
+      
+    </item>
+    
+    <item>
+      <title>Deploy Automatic1111&#39;s Stable Diffusion webui on Fedora Silverblue 38 with AMD GPU</title>
+      <link>//localhost:1313/posts/2023-06-02/</link>
+      <pubDate>Sat, 03 Jun 2023 00:42:47 +0800</pubDate>
+      
+      <guid>//localhost:1313/posts/2023-06-02/</guid>
+      <description>Why Fedora silverblue?</description>
+      
+    </item>
+    
+  </channel>
+</rss>

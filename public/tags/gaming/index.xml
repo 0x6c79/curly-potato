@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming on blogger</title>
+    <link>//localhost:1313/tags/gaming/</link>
+    <description>Recent content in Gaming on blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 0x6c79</copyright>
+    <lastBuildDate>Sat, 09 Dec 2023 20:41:24 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenModding</title>
+      <link>//localhost:1313/posts/openmodding/</link>
+      <pubDate>Sat, 09 Dec 2023 20:41:24 +0800</pubDate>
+      
+      <guid>//localhost:1313/posts/openmodding/</guid>
+      <description>Wrye Notes: Open Modding # In this paper, I discuss the idea of open modding – what it is and how best it can be achieved for the Morrowind community.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on blogger</title>
+    <link>//localhost:1313/tags/test/</link>
+    <description>Recent content in Test on blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 0x6c79</copyright>
+    <lastBuildDate>Sun, 14 May 2023 21:16:22 +0800</lastBuildDate><atom:link href="//localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Newbing&#39;s answer</title>
+      <link>//localhost:1313/posts/2023-05-08/</link>
+      <pubDate>Sun, 14 May 2023 21:16:22 +0800</pubDate>
+      
+      <guid>//localhost:1313/posts/2023-05-08/</guid>
+      <description>来自newbing的回答 如果你想成为一个运维工程师，你需要学习一些基础的知识和技能，比如Linux操作系统、网络协议、常用的服务和工具、脚本编程等。¹² 你也需要根据你的目标和水平，制定一个合适的学习路线，从初级到高级，逐步提升你的能力和经验。¹²³ 一般来说，一个运维工程师的学习路线可以分为以下几个阶段：¹²³ - 初级入门：学习Linux基础知识、基本命令、用户及权限管理、系统进程管理、文本文件处理、Shell脚本入门等。 - 中级进阶：学习TCP/IP网络基础、Linux常用服务如DNS、HTTP、FTP、Mail等、Linux企业级安全原理和防范技巧、MySQL应用原理和管理入门等。 - 高级提升：学习HTTP服务代理缓存加速、企业级负载集群、企业级高可用集群、运维监控、运维自动化等。 - 资深方向进阶：学习大数据方向如Hadoop、Storm等、云计算方向如OpenStack、KVM、Docker等、运维开发如Python运维开发等。 当然，这只是一个参考的路线，你可以根据自己的兴趣和需求，选择不同的方向和内容进行学习。¹²³ 源: 与必应的对话， 2023/5/7 (1) 智一面分享运维工程师学习路线图 - 知乎 - 知乎专栏.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>//localhost:1313/posts/23-4-9/</link>
+      <pubDate>Sun, 09 Apr 2023 14:31:59 +0800</pubDate>
+      
+      <guid>//localhost:1313/posts/23-4-9/</guid>
+      <description>hello world # public static void main(String args[]){ System.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
