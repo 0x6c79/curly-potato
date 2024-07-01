@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on 0x6c79的博客</title>
+    <link>//localhost:1313/tags/tag/</link>
+    <description>Recent content in Tag on 0x6c79的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 0x6c79</copyright>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>词汇表</title>
+      <link>//localhost:1313/notes/1719855715962-%E8%AF%8D%E6%B1%87%E8%A1%A8/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/notes/1719855715962-%E8%AF%8D%E6%B1%87%E8%A1%A8/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/notes/1719855715962-%E8%AF%8D%E6%B1%87%E8%A1%A8/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
