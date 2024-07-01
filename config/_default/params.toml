@@ -5,8 +5,8 @@ enableSearch = true
 enableCodeCopy = true
 disableImageOptimization = false
 disableTextInHeader = false
-defaultBackgroundImage = "DSC_1589.jpg"
-defaultFeaturedImage = ""
+defaultBackgroundImage = "sr26a2d9f2fccaws3.gif"
+defaultFeaturedImage = "false"
 highlightCurrentMenuArea = ""
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
@@ -22,15 +22,15 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
-showRecent = false
-showRecentItems = 5
+layout = "background"
+showRecent = true
+showRecentItems = "5"
 showMoreLink = false
 showMoreLinkDest = "/posts"
 cardView = false
-cardViewScreenWidth = false
-layoutBackgroundBlur = ""
-homepageImage = ""
+cardViewScreenWidth = ""
+layoutBackgroundBlur = true
+homepageImage = "sr26a2d9f2fccaws3.gif"
 
 [article]
 showDate = true
@@ -38,7 +38,7 @@ showViews = false
 showLikes = false
 showDateUpdated = false
 showAuthor = true
-showHero = ""
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = ""
@@ -51,16 +51,16 @@ showPagination = true
 invertPagination = ""
 showReadingTime = true
 showTableOfContents = true
-showTaxonomies = false
+showTaxonomies = ""
 showAuthorsBadges = false
 showWordCount = true
-heroStyle = ""
+heroStyle = "background"
 showRelatedContent = ""
 relatedContentLimit = ""
 showZenMode = true
 
 [list]
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -68,26 +68,28 @@ showSummary = false
 showViews = false
 showLikes = false
 showTableOfContents = true
-showCards = false
+showCards = ""
 groupByYear = true
 cardView = false
-cardViewScreenWidth = false
-constrainItemsWidth = false
+cardViewScreenWidth = ""
+constrainItemsWidth = ""
+heroStyle = "background"
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
-showHero = false
+showHero = true
 showBreadcrumbs = false
 showViews = false
 showLikes = false
-showTableOfContents = false
-cardView = false
+showTableOfContents = ""
+cardView = ""
+heroStyle = "background"
 
 [term]
-showHero = ""
+showHero = true
 showBreadcrumbs = false
 showViews = false
 showLikes = false
@@ -95,6 +97,7 @@ showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
+heroStyle = "background"
 
 [firebase]
 
